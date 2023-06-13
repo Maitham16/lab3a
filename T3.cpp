@@ -1,3 +1,4 @@
+// T3: Be able to read in geometry from the specified xml files. (example1.xml)
 #include "classes/Color.h"
 #include "classes/Light.h"
 #include "classes/sphereT3.h"
@@ -50,7 +51,7 @@ std::vector<anotherSphere> parseSurfaces(const pugi::xml_node &surfacesNode)
             pugi::xml_node refractionNode = materialNode.child("refraction");
             double iof = refractionNode.attribute("iof").as_double();
 
-            // create spheres
+            // store the attributes in a sphere object
             Vec3 position(x, y, z);
             anotherSphere sphere(position, radius, MaterialSolidT3(), Color(), position);
             sphere.material.color = Color(r, g, b);
@@ -62,6 +63,7 @@ std::vector<anotherSphere> parseSurfaces(const pugi::xml_node &surfacesNode)
             sphere.material.transmittance = transmittance;
             sphere.material.iof = iof;
 
+            // push the sphere object into the vector
             spheres.push_back(sphere);
             // console checking
             std::cout << "anotherSphere: Radius=" << radius << ", Position=(" << x << "," << y << "," << z << ")\n";
@@ -95,6 +97,7 @@ std::pair<Light, Color> parseLights(const pugi::xml_node &lightsNode)
     double c_g = lightColorNode.attribute("g").as_double();
     double c_b = lightColorNode.attribute("b").as_double();
 
+    // store the attributes in a light object
     Light light(Vec3(x, y, z), Color(c_r, c_g, c_b));
     return std::make_pair(light, ambientLight);
 }
@@ -122,7 +125,7 @@ Camera parseCamera(const pugi::xml_node &cameraNode)
     pugi::xml_node max_bouncesNode = cameraNode.child("max_bounces");
     double max_bounces = max_bouncesNode.attribute("n").as_double();
 
-    // create camera object
+    // store the attributes in a camera object
     Camera camera;
     camera.position = Vec3(x, y, z);
     camera.lookAt = Vec3(lookat_x, lookat_y, lookat_z);
@@ -138,6 +141,7 @@ Camera parseCamera(const pugi::xml_node &cameraNode)
 // parse scene from XML
 void parseScene(const std::string &fileName, std::string &outputFileName, Color &bgColor, Camera &camera, std::vector<anotherSphere> &spheres, Light &light, Color &ambientLight)
 {
+    // Load XML file
     pugi::xml_document doc;
     if (!doc.load_file(fileName.c_str()))
     {
@@ -175,15 +179,15 @@ void parseScene(const std::string &fileName, std::string &outputFileName, Color 
         }
     }
     // Render the scene
-    int width = 800;
-    int height = 600;
+    int width = camera.imgWidth;
+    int height = camera.imgHeight;
     std::vector<unsigned char> imageData(width * height * 3);
 
     double aspectRatio = static_cast<double>(width) / height;
     double fov = 90.0;
     double scale = tan(0.5 * fov * 3.14159265359 / 180.0);
     Vec3 cameraPosition(0, 0, 1);
-    std::vector<Light> lights;            
+    std::vector<Light> lights;
     lights.push_back(Light(Vec3(0, 1, 0), Color(1, 1, 1)));
 
     int maxDepth = 8;
@@ -216,7 +220,6 @@ void parseScene(const std::string &fileName, std::string &outputFileName, Color 
 
 int main()
 {
-    // define variables to store parsed data
     std::string outputFileName;
     Color bgColor;
     Camera camera;

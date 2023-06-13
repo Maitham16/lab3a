@@ -1,3 +1,4 @@
+// T2: Output an image with spheres on it after ray tracing them.
 #include "classes/Camera.h"
 #include "classes/Color.h"
 #include "classes/Light.h"
@@ -18,7 +19,7 @@ int main()
     Vec3 up(0.0f, 1.0f, 0.0f);
     float fov = 90.0f;
     float aspectRatio = 16.0f / 9.0f;
-    
+
     // Create the camera
     Camera camera(cameraPosition, lookAt, up, fov, aspectRatio, 1, 1, 1);
 
@@ -71,5 +72,6 @@ int main()
     // Save the image to a file using the savePPM function
     savePPM("T2_Sphere.ppm", imageWidth, imageHeight, imageData);
 
+    // 0 means the program exited successfully
     return 0;
 }

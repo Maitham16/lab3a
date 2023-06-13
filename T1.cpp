@@ -1,3 +1,4 @@
+// T1: Output a valid black image file.
 #include "classes/Camera.h"
 #include "classes/Color.h"
 #include "classes/Light.h"
@@ -44,5 +45,6 @@ int main()
     // Save the image to a file using the savePPM function
     savePPM("T1_black_image.ppm", imageWidth, imageHeight, imageData);
 
+    // 0 means success
     return 0;
 }
