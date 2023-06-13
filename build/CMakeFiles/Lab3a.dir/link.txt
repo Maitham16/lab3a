@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Lab3a.dir/T1.cpp.o CMakeFiles/Lab3a.dir/T2.cpp.o CMakeFiles/Lab3a.dir/T3.cpp.o CMakeFiles/Lab3a.dir/T4.cpp.o CMakeFiles/Lab3a.dir/T5.cpp.o -o Lab3a  pugixml/libpugixml.a 

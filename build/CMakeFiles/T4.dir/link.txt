@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/T4.dir/T4.cpp.o -o T4  pugixml/libpugixml.a 
