@@ -1,4 +1,4 @@
-# Install script for directory: /home/maith/Desktop/rt/raytracing
+# Install script for directory: /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/maith/Desktop/rt/raytracing/build/pugixml/cmake_install.cmake")
+  include("/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/maith/Desktop/rt/raytracing/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/maith/Desktop/rt/raytracing/pugixml
-BuildDirectory: /home/maith/Desktop/rt/raytracing/build/pugixml
+SourceDirectory: /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml
+BuildDirectory: /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/home/maith/.local/lib/python3.11/site-packages/cmake/data/bin/cmake" "/home/maith/Desktop/rt/raytracing/pugixml"
+ConfigureCommand: "/home/maith/.local/lib/python3.11/site-packages/cmake/data/bin/cmake" "/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml"
 MakeCommand: /home/maith/.local/lib/python3.11/site-packages/cmake/data/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

@@ -53,10 +53,10 @@ RM = /home/maith/.local/lib/python3.11/site-packages/cmake/data/bin/cmake -E rm 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maith/Desktop/rt/raytracing
+CMAKE_SOURCE_DIR = /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maith/Desktop/rt/raytracing/build
+CMAKE_BINARY_DIR = /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build
 
 # Include any dependencies generated for this target.
 include pugixml/CMakeFiles/pugixml-static.dir/depend.make
@@ -70,18 +70,18 @@ include pugixml/CMakeFiles/pugixml-static.dir/progress.make
 include pugixml/CMakeFiles/pugixml-static.dir/flags.make
 
 pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o: pugixml/CMakeFiles/pugixml-static.dir/flags.make
-pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o: /home/maith/Desktop/rt/raytracing/pugixml/src/pugixml.cpp
+pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o: /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml/src/pugixml.cpp
 pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o: pugixml/CMakeFiles/pugixml-static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o"
-	cd /home/maith/Desktop/rt/raytracing/build/pugixml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o -MF CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o.d -o CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o -c /home/maith/Desktop/rt/raytracing/pugixml/src/pugixml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o"
+	cd /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o -MF CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o.d -o CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o -c /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml/src/pugixml.cpp
 
 pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pugixml-static.dir/src/pugixml.cpp.i"
-	cd /home/maith/Desktop/rt/raytracing/build/pugixml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maith/Desktop/rt/raytracing/pugixml/src/pugixml.cpp > CMakeFiles/pugixml-static.dir/src/pugixml.cpp.i
+	cd /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml/src/pugixml.cpp > CMakeFiles/pugixml-static.dir/src/pugixml.cpp.i
 
 pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pugixml-static.dir/src/pugixml.cpp.s"
-	cd /home/maith/Desktop/rt/raytracing/build/pugixml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maith/Desktop/rt/raytracing/pugixml/src/pugixml.cpp -o CMakeFiles/pugixml-static.dir/src/pugixml.cpp.s
+	cd /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml/src/pugixml.cpp -o CMakeFiles/pugixml-static.dir/src/pugixml.cpp.s
 
 # Object files for target pugixml-static
 pugixml__static_OBJECTS = \
@@ -93,19 +93,19 @@ pugixml__static_EXTERNAL_OBJECTS =
 pugixml/libpugixml.a: pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o
 pugixml/libpugixml.a: pugixml/CMakeFiles/pugixml-static.dir/build.make
 pugixml/libpugixml.a: pugixml/CMakeFiles/pugixml-static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libpugixml.a"
-	cd /home/maith/Desktop/rt/raytracing/build/pugixml && $(CMAKE_COMMAND) -P CMakeFiles/pugixml-static.dir/cmake_clean_target.cmake
-	cd /home/maith/Desktop/rt/raytracing/build/pugixml && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pugixml-static.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libpugixml.a"
+	cd /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml && $(CMAKE_COMMAND) -P CMakeFiles/pugixml-static.dir/cmake_clean_target.cmake
+	cd /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pugixml-static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 pugixml/CMakeFiles/pugixml-static.dir/build: pugixml/libpugixml.a
 .PHONY : pugixml/CMakeFiles/pugixml-static.dir/build
 
 pugixml/CMakeFiles/pugixml-static.dir/clean:
-	cd /home/maith/Desktop/rt/raytracing/build/pugixml && $(CMAKE_COMMAND) -P CMakeFiles/pugixml-static.dir/cmake_clean.cmake
+	cd /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml && $(CMAKE_COMMAND) -P CMakeFiles/pugixml-static.dir/cmake_clean.cmake
 .PHONY : pugixml/CMakeFiles/pugixml-static.dir/clean
 
 pugixml/CMakeFiles/pugixml-static.dir/depend:
-	cd /home/maith/Desktop/rt/raytracing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maith/Desktop/rt/raytracing /home/maith/Desktop/rt/raytracing/pugixml /home/maith/Desktop/rt/raytracing/build /home/maith/Desktop/rt/raytracing/build/pugixml /home/maith/Desktop/rt/raytracing/build/pugixml/CMakeFiles/pugixml-static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml/CMakeFiles/pugixml-static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pugixml/CMakeFiles/pugixml-static.dir/depend
 

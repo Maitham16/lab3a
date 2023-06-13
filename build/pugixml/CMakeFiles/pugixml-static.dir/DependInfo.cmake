@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/maith/Desktop/rt/raytracing/pugixml/src/pugixml.cpp" "pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o" "gcc" "pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o.d"
+  "/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml/src/pugixml.cpp" "pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o" "gcc" "pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

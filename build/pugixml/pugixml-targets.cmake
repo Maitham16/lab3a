@@ -62,14 +62,14 @@ add_library(pugixml::static STATIC IMPORTED)
 
 set_target_properties(pugixml::static PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "\$<\$<BOOL:OFF>:PUGIXML_WCHAR_MODE>;\$<\$<BOOL:OFF>:PUGIXML_COMPACT>;\$<\$<BOOL:OFF>:PUGIXML_NO_XPATH>;\$<\$<BOOL:OFF>:PUGIXML_NO_STL>;\$<\$<BOOL:OFF>:PUGIXML_NO_EXCEPTIONS>"
-  INTERFACE_INCLUDE_DIRECTORIES "/home/maith/Desktop/rt/raytracing/pugixml/src"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml/src"
 )
 
 # Import target "pugixml::static" for configuration ""
 set_property(TARGET pugixml::static APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(pugixml::static PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "CXX"
-  IMPORTED_LOCATION_NOCONFIG "/home/maith/Desktop/rt/raytracing/build/pugixml/libpugixml.a"
+  IMPORTED_LOCATION_NOCONFIG "/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml/libpugixml.a"
   )
 
 # This file does not depend on other imported targets which have

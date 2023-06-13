@@ -53,10 +53,10 @@ RM = /home/maith/.local/lib/python3.11/site-packages/cmake/data/bin/cmake -E rm 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maith/Desktop/rt/raytracing
+CMAKE_SOURCE_DIR = /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maith/Desktop/rt/raytracing/build
+CMAKE_BINARY_DIR = /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build
 
 # Utility rule file for ExperimentalConfigure.
 
@@ -67,7 +67,7 @@ include pugixml/CMakeFiles/ExperimentalConfigure.dir/compiler_depend.make
 include pugixml/CMakeFiles/ExperimentalConfigure.dir/progress.make
 
 pugixml/CMakeFiles/ExperimentalConfigure:
-	cd /home/maith/Desktop/rt/raytracing/build/pugixml && /home/maith/.local/lib/python3.11/site-packages/cmake/data/bin/ctest -D ExperimentalConfigure
+	cd /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml && /home/maith/.local/lib/python3.11/site-packages/cmake/data/bin/ctest -D ExperimentalConfigure
 
 ExperimentalConfigure: pugixml/CMakeFiles/ExperimentalConfigure
 ExperimentalConfigure: pugixml/CMakeFiles/ExperimentalConfigure.dir/build.make
@@ -78,10 +78,10 @@ pugixml/CMakeFiles/ExperimentalConfigure.dir/build: ExperimentalConfigure
 .PHONY : pugixml/CMakeFiles/ExperimentalConfigure.dir/build
 
 pugixml/CMakeFiles/ExperimentalConfigure.dir/clean:
-	cd /home/maith/Desktop/rt/raytracing/build/pugixml && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalConfigure.dir/cmake_clean.cmake
+	cd /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml && $(CMAKE_COMMAND) -P CMakeFiles/ExperimentalConfigure.dir/cmake_clean.cmake
 .PHONY : pugixml/CMakeFiles/ExperimentalConfigure.dir/clean
 
 pugixml/CMakeFiles/ExperimentalConfigure.dir/depend:
-	cd /home/maith/Desktop/rt/raytracing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maith/Desktop/rt/raytracing /home/maith/Desktop/rt/raytracing/pugixml /home/maith/Desktop/rt/raytracing/build /home/maith/Desktop/rt/raytracing/build/pugixml /home/maith/Desktop/rt/raytracing/build/pugixml/CMakeFiles/ExperimentalConfigure.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml/CMakeFiles/ExperimentalConfigure.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pugixml/CMakeFiles/ExperimentalConfigure.dir/depend
 

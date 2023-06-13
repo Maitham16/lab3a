@@ -54,10 +54,10 @@ RM = /home/maith/.local/lib/python3.11/site-packages/cmake/data/bin/cmake -E rm 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maith/Desktop/rt/raytracing
+CMAKE_SOURCE_DIR = /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maith/Desktop/rt/raytracing/build
+CMAKE_BINARY_DIR = /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -136,14 +136,14 @@ pugixml/clean: pugixml/CMakeFiles/pugixml-static.dir/clean
 CMakeFiles/T1.dir/all: pugixml/CMakeFiles/pugixml-static.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/T1.dir/build.make CMakeFiles/T1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/T1.dir/build.make CMakeFiles/T1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num=1,2 "Built target T1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num=1,2 "Built target T1"
 .PHONY : CMakeFiles/T1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/T1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/T1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : CMakeFiles/T1.dir/rule
 
 # Convenience name for target.
@@ -162,14 +162,14 @@ CMakeFiles/T1.dir/clean:
 CMakeFiles/T2.dir/all: pugixml/CMakeFiles/pugixml-static.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/T2.dir/build.make CMakeFiles/T2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/T2.dir/build.make CMakeFiles/T2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num=3,4 "Built target T2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num=3,4 "Built target T2"
 .PHONY : CMakeFiles/T2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/T2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/T2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : CMakeFiles/T2.dir/rule
 
 # Convenience name for target.
@@ -188,14 +188,14 @@ CMakeFiles/T2.dir/clean:
 CMakeFiles/T3.dir/all: pugixml/CMakeFiles/pugixml-static.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/T3.dir/build.make CMakeFiles/T3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/T3.dir/build.make CMakeFiles/T3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num=5,6 "Built target T3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num=5,6 "Built target T3"
 .PHONY : CMakeFiles/T3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/T3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/T3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : CMakeFiles/T3.dir/rule
 
 # Convenience name for target.
@@ -214,14 +214,14 @@ CMakeFiles/T3.dir/clean:
 CMakeFiles/T4.dir/all: pugixml/CMakeFiles/pugixml-static.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/T4.dir/build.make CMakeFiles/T4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/T4.dir/build.make CMakeFiles/T4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num=7,8 "Built target T4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num=7,8 "Built target T4"
 .PHONY : CMakeFiles/T4.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/T4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/T4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : CMakeFiles/T4.dir/rule
 
 # Convenience name for target.
@@ -240,14 +240,14 @@ CMakeFiles/T4.dir/clean:
 CMakeFiles/T5.dir/all: pugixml/CMakeFiles/pugixml-static.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/T5.dir/build.make CMakeFiles/T5.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/T5.dir/build.make CMakeFiles/T5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num=9,10 "Built target T5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num=9,10 "Built target T5"
 .PHONY : CMakeFiles/T5.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/T5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/T5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : CMakeFiles/T5.dir/rule
 
 # Convenience name for target.
@@ -266,14 +266,14 @@ CMakeFiles/T5.dir/clean:
 pugixml/CMakeFiles/Experimental.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/Experimental.dir/build.make pugixml/CMakeFiles/Experimental.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/Experimental.dir/build.make pugixml/CMakeFiles/Experimental.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target Experimental"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target Experimental"
 .PHONY : pugixml/CMakeFiles/Experimental.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/Experimental.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/Experimental.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/Experimental.dir/rule
 
 # Convenience name for target.
@@ -292,14 +292,14 @@ pugixml/CMakeFiles/Experimental.dir/clean:
 pugixml/CMakeFiles/Nightly.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/Nightly.dir/build.make pugixml/CMakeFiles/Nightly.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/Nightly.dir/build.make pugixml/CMakeFiles/Nightly.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target Nightly"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target Nightly"
 .PHONY : pugixml/CMakeFiles/Nightly.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/Nightly.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/Nightly.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/Nightly.dir/rule
 
 # Convenience name for target.
@@ -318,14 +318,14 @@ pugixml/CMakeFiles/Nightly.dir/clean:
 pugixml/CMakeFiles/Continuous.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/Continuous.dir/build.make pugixml/CMakeFiles/Continuous.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/Continuous.dir/build.make pugixml/CMakeFiles/Continuous.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target Continuous"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target Continuous"
 .PHONY : pugixml/CMakeFiles/Continuous.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/Continuous.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/Continuous.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/Continuous.dir/rule
 
 # Convenience name for target.
@@ -344,14 +344,14 @@ pugixml/CMakeFiles/Continuous.dir/clean:
 pugixml/CMakeFiles/NightlyMemoryCheck.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/NightlyMemoryCheck.dir/build.make pugixml/CMakeFiles/NightlyMemoryCheck.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/NightlyMemoryCheck.dir/build.make pugixml/CMakeFiles/NightlyMemoryCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target NightlyMemoryCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target NightlyMemoryCheck"
 .PHONY : pugixml/CMakeFiles/NightlyMemoryCheck.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/NightlyMemoryCheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/NightlyMemoryCheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/NightlyMemoryCheck.dir/rule
 
 # Convenience name for target.
@@ -370,14 +370,14 @@ pugixml/CMakeFiles/NightlyMemoryCheck.dir/clean:
 pugixml/CMakeFiles/NightlyStart.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/NightlyStart.dir/build.make pugixml/CMakeFiles/NightlyStart.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/NightlyStart.dir/build.make pugixml/CMakeFiles/NightlyStart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target NightlyStart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target NightlyStart"
 .PHONY : pugixml/CMakeFiles/NightlyStart.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/NightlyStart.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/NightlyStart.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/NightlyStart.dir/rule
 
 # Convenience name for target.
@@ -396,14 +396,14 @@ pugixml/CMakeFiles/NightlyStart.dir/clean:
 pugixml/CMakeFiles/NightlyUpdate.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/NightlyUpdate.dir/build.make pugixml/CMakeFiles/NightlyUpdate.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/NightlyUpdate.dir/build.make pugixml/CMakeFiles/NightlyUpdate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target NightlyUpdate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target NightlyUpdate"
 .PHONY : pugixml/CMakeFiles/NightlyUpdate.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/NightlyUpdate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/NightlyUpdate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/NightlyUpdate.dir/rule
 
 # Convenience name for target.
@@ -422,14 +422,14 @@ pugixml/CMakeFiles/NightlyUpdate.dir/clean:
 pugixml/CMakeFiles/NightlyConfigure.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/NightlyConfigure.dir/build.make pugixml/CMakeFiles/NightlyConfigure.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/NightlyConfigure.dir/build.make pugixml/CMakeFiles/NightlyConfigure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target NightlyConfigure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target NightlyConfigure"
 .PHONY : pugixml/CMakeFiles/NightlyConfigure.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/NightlyConfigure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/NightlyConfigure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/NightlyConfigure.dir/rule
 
 # Convenience name for target.
@@ -448,14 +448,14 @@ pugixml/CMakeFiles/NightlyConfigure.dir/clean:
 pugixml/CMakeFiles/NightlyBuild.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/NightlyBuild.dir/build.make pugixml/CMakeFiles/NightlyBuild.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/NightlyBuild.dir/build.make pugixml/CMakeFiles/NightlyBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target NightlyBuild"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target NightlyBuild"
 .PHONY : pugixml/CMakeFiles/NightlyBuild.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/NightlyBuild.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/NightlyBuild.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/NightlyBuild.dir/rule
 
 # Convenience name for target.
@@ -474,14 +474,14 @@ pugixml/CMakeFiles/NightlyBuild.dir/clean:
 pugixml/CMakeFiles/NightlyTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/NightlyTest.dir/build.make pugixml/CMakeFiles/NightlyTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/NightlyTest.dir/build.make pugixml/CMakeFiles/NightlyTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target NightlyTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target NightlyTest"
 .PHONY : pugixml/CMakeFiles/NightlyTest.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/NightlyTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/NightlyTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/NightlyTest.dir/rule
 
 # Convenience name for target.
@@ -500,14 +500,14 @@ pugixml/CMakeFiles/NightlyTest.dir/clean:
 pugixml/CMakeFiles/NightlyCoverage.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/NightlyCoverage.dir/build.make pugixml/CMakeFiles/NightlyCoverage.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/NightlyCoverage.dir/build.make pugixml/CMakeFiles/NightlyCoverage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target NightlyCoverage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target NightlyCoverage"
 .PHONY : pugixml/CMakeFiles/NightlyCoverage.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/NightlyCoverage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/NightlyCoverage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/NightlyCoverage.dir/rule
 
 # Convenience name for target.
@@ -526,14 +526,14 @@ pugixml/CMakeFiles/NightlyCoverage.dir/clean:
 pugixml/CMakeFiles/NightlyMemCheck.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/NightlyMemCheck.dir/build.make pugixml/CMakeFiles/NightlyMemCheck.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/NightlyMemCheck.dir/build.make pugixml/CMakeFiles/NightlyMemCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target NightlyMemCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target NightlyMemCheck"
 .PHONY : pugixml/CMakeFiles/NightlyMemCheck.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/NightlyMemCheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/NightlyMemCheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/NightlyMemCheck.dir/rule
 
 # Convenience name for target.
@@ -552,14 +552,14 @@ pugixml/CMakeFiles/NightlyMemCheck.dir/clean:
 pugixml/CMakeFiles/NightlySubmit.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/NightlySubmit.dir/build.make pugixml/CMakeFiles/NightlySubmit.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/NightlySubmit.dir/build.make pugixml/CMakeFiles/NightlySubmit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target NightlySubmit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target NightlySubmit"
 .PHONY : pugixml/CMakeFiles/NightlySubmit.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/NightlySubmit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/NightlySubmit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/NightlySubmit.dir/rule
 
 # Convenience name for target.
@@ -578,14 +578,14 @@ pugixml/CMakeFiles/NightlySubmit.dir/clean:
 pugixml/CMakeFiles/ExperimentalStart.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ExperimentalStart.dir/build.make pugixml/CMakeFiles/ExperimentalStart.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ExperimentalStart.dir/build.make pugixml/CMakeFiles/ExperimentalStart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target ExperimentalStart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target ExperimentalStart"
 .PHONY : pugixml/CMakeFiles/ExperimentalStart.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/ExperimentalStart.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/ExperimentalStart.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/ExperimentalStart.dir/rule
 
 # Convenience name for target.
@@ -604,14 +604,14 @@ pugixml/CMakeFiles/ExperimentalStart.dir/clean:
 pugixml/CMakeFiles/ExperimentalUpdate.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ExperimentalUpdate.dir/build.make pugixml/CMakeFiles/ExperimentalUpdate.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ExperimentalUpdate.dir/build.make pugixml/CMakeFiles/ExperimentalUpdate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target ExperimentalUpdate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target ExperimentalUpdate"
 .PHONY : pugixml/CMakeFiles/ExperimentalUpdate.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/ExperimentalUpdate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/ExperimentalUpdate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/ExperimentalUpdate.dir/rule
 
 # Convenience name for target.
@@ -630,14 +630,14 @@ pugixml/CMakeFiles/ExperimentalUpdate.dir/clean:
 pugixml/CMakeFiles/ExperimentalConfigure.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ExperimentalConfigure.dir/build.make pugixml/CMakeFiles/ExperimentalConfigure.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ExperimentalConfigure.dir/build.make pugixml/CMakeFiles/ExperimentalConfigure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target ExperimentalConfigure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target ExperimentalConfigure"
 .PHONY : pugixml/CMakeFiles/ExperimentalConfigure.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/ExperimentalConfigure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/ExperimentalConfigure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/ExperimentalConfigure.dir/rule
 
 # Convenience name for target.
@@ -656,14 +656,14 @@ pugixml/CMakeFiles/ExperimentalConfigure.dir/clean:
 pugixml/CMakeFiles/ExperimentalBuild.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ExperimentalBuild.dir/build.make pugixml/CMakeFiles/ExperimentalBuild.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ExperimentalBuild.dir/build.make pugixml/CMakeFiles/ExperimentalBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target ExperimentalBuild"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target ExperimentalBuild"
 .PHONY : pugixml/CMakeFiles/ExperimentalBuild.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/ExperimentalBuild.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/ExperimentalBuild.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/ExperimentalBuild.dir/rule
 
 # Convenience name for target.
@@ -682,14 +682,14 @@ pugixml/CMakeFiles/ExperimentalBuild.dir/clean:
 pugixml/CMakeFiles/ExperimentalTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ExperimentalTest.dir/build.make pugixml/CMakeFiles/ExperimentalTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ExperimentalTest.dir/build.make pugixml/CMakeFiles/ExperimentalTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target ExperimentalTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target ExperimentalTest"
 .PHONY : pugixml/CMakeFiles/ExperimentalTest.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/ExperimentalTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/ExperimentalTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/ExperimentalTest.dir/rule
 
 # Convenience name for target.
@@ -708,14 +708,14 @@ pugixml/CMakeFiles/ExperimentalTest.dir/clean:
 pugixml/CMakeFiles/ExperimentalCoverage.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ExperimentalCoverage.dir/build.make pugixml/CMakeFiles/ExperimentalCoverage.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ExperimentalCoverage.dir/build.make pugixml/CMakeFiles/ExperimentalCoverage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target ExperimentalCoverage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target ExperimentalCoverage"
 .PHONY : pugixml/CMakeFiles/ExperimentalCoverage.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/ExperimentalCoverage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/ExperimentalCoverage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/ExperimentalCoverage.dir/rule
 
 # Convenience name for target.
@@ -734,14 +734,14 @@ pugixml/CMakeFiles/ExperimentalCoverage.dir/clean:
 pugixml/CMakeFiles/ExperimentalMemCheck.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ExperimentalMemCheck.dir/build.make pugixml/CMakeFiles/ExperimentalMemCheck.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ExperimentalMemCheck.dir/build.make pugixml/CMakeFiles/ExperimentalMemCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target ExperimentalMemCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target ExperimentalMemCheck"
 .PHONY : pugixml/CMakeFiles/ExperimentalMemCheck.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/ExperimentalMemCheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/ExperimentalMemCheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/ExperimentalMemCheck.dir/rule
 
 # Convenience name for target.
@@ -760,14 +760,14 @@ pugixml/CMakeFiles/ExperimentalMemCheck.dir/clean:
 pugixml/CMakeFiles/ExperimentalSubmit.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ExperimentalSubmit.dir/build.make pugixml/CMakeFiles/ExperimentalSubmit.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ExperimentalSubmit.dir/build.make pugixml/CMakeFiles/ExperimentalSubmit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target ExperimentalSubmit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target ExperimentalSubmit"
 .PHONY : pugixml/CMakeFiles/ExperimentalSubmit.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/ExperimentalSubmit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/ExperimentalSubmit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/ExperimentalSubmit.dir/rule
 
 # Convenience name for target.
@@ -786,14 +786,14 @@ pugixml/CMakeFiles/ExperimentalSubmit.dir/clean:
 pugixml/CMakeFiles/ContinuousStart.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ContinuousStart.dir/build.make pugixml/CMakeFiles/ContinuousStart.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ContinuousStart.dir/build.make pugixml/CMakeFiles/ContinuousStart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target ContinuousStart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target ContinuousStart"
 .PHONY : pugixml/CMakeFiles/ContinuousStart.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/ContinuousStart.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/ContinuousStart.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/ContinuousStart.dir/rule
 
 # Convenience name for target.
@@ -812,14 +812,14 @@ pugixml/CMakeFiles/ContinuousStart.dir/clean:
 pugixml/CMakeFiles/ContinuousUpdate.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ContinuousUpdate.dir/build.make pugixml/CMakeFiles/ContinuousUpdate.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ContinuousUpdate.dir/build.make pugixml/CMakeFiles/ContinuousUpdate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target ContinuousUpdate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target ContinuousUpdate"
 .PHONY : pugixml/CMakeFiles/ContinuousUpdate.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/ContinuousUpdate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/ContinuousUpdate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/ContinuousUpdate.dir/rule
 
 # Convenience name for target.
@@ -838,14 +838,14 @@ pugixml/CMakeFiles/ContinuousUpdate.dir/clean:
 pugixml/CMakeFiles/ContinuousConfigure.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ContinuousConfigure.dir/build.make pugixml/CMakeFiles/ContinuousConfigure.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ContinuousConfigure.dir/build.make pugixml/CMakeFiles/ContinuousConfigure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target ContinuousConfigure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target ContinuousConfigure"
 .PHONY : pugixml/CMakeFiles/ContinuousConfigure.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/ContinuousConfigure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/ContinuousConfigure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/ContinuousConfigure.dir/rule
 
 # Convenience name for target.
@@ -864,14 +864,14 @@ pugixml/CMakeFiles/ContinuousConfigure.dir/clean:
 pugixml/CMakeFiles/ContinuousBuild.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ContinuousBuild.dir/build.make pugixml/CMakeFiles/ContinuousBuild.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ContinuousBuild.dir/build.make pugixml/CMakeFiles/ContinuousBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target ContinuousBuild"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target ContinuousBuild"
 .PHONY : pugixml/CMakeFiles/ContinuousBuild.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/ContinuousBuild.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/ContinuousBuild.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/ContinuousBuild.dir/rule
 
 # Convenience name for target.
@@ -890,14 +890,14 @@ pugixml/CMakeFiles/ContinuousBuild.dir/clean:
 pugixml/CMakeFiles/ContinuousTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ContinuousTest.dir/build.make pugixml/CMakeFiles/ContinuousTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ContinuousTest.dir/build.make pugixml/CMakeFiles/ContinuousTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target ContinuousTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target ContinuousTest"
 .PHONY : pugixml/CMakeFiles/ContinuousTest.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/ContinuousTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/ContinuousTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/ContinuousTest.dir/rule
 
 # Convenience name for target.
@@ -916,14 +916,14 @@ pugixml/CMakeFiles/ContinuousTest.dir/clean:
 pugixml/CMakeFiles/ContinuousCoverage.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ContinuousCoverage.dir/build.make pugixml/CMakeFiles/ContinuousCoverage.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ContinuousCoverage.dir/build.make pugixml/CMakeFiles/ContinuousCoverage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target ContinuousCoverage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target ContinuousCoverage"
 .PHONY : pugixml/CMakeFiles/ContinuousCoverage.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/ContinuousCoverage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/ContinuousCoverage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/ContinuousCoverage.dir/rule
 
 # Convenience name for target.
@@ -942,14 +942,14 @@ pugixml/CMakeFiles/ContinuousCoverage.dir/clean:
 pugixml/CMakeFiles/ContinuousMemCheck.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ContinuousMemCheck.dir/build.make pugixml/CMakeFiles/ContinuousMemCheck.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ContinuousMemCheck.dir/build.make pugixml/CMakeFiles/ContinuousMemCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target ContinuousMemCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target ContinuousMemCheck"
 .PHONY : pugixml/CMakeFiles/ContinuousMemCheck.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/ContinuousMemCheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/ContinuousMemCheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/ContinuousMemCheck.dir/rule
 
 # Convenience name for target.
@@ -968,14 +968,14 @@ pugixml/CMakeFiles/ContinuousMemCheck.dir/clean:
 pugixml/CMakeFiles/ContinuousSubmit.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ContinuousSubmit.dir/build.make pugixml/CMakeFiles/ContinuousSubmit.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/ContinuousSubmit.dir/build.make pugixml/CMakeFiles/ContinuousSubmit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num= "Built target ContinuousSubmit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num= "Built target ContinuousSubmit"
 .PHONY : pugixml/CMakeFiles/ContinuousSubmit.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/ContinuousSubmit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/ContinuousSubmit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/ContinuousSubmit.dir/rule
 
 # Convenience name for target.
@@ -994,14 +994,14 @@ pugixml/CMakeFiles/ContinuousSubmit.dir/clean:
 pugixml/CMakeFiles/pugixml-static.dir/all:
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/pugixml-static.dir/build.make pugixml/CMakeFiles/pugixml-static.dir/depend
 	$(MAKE) $(MAKESILENT) -f pugixml/CMakeFiles/pugixml-static.dir/build.make pugixml/CMakeFiles/pugixml-static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/rt/raytracing/build/CMakeFiles --progress-num=11,12 "Built target pugixml-static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles --progress-num=11,12 "Built target pugixml-static"
 .PHONY : pugixml/CMakeFiles/pugixml-static.dir/all
 
 # Build rule for subdir invocation for target.
 pugixml/CMakeFiles/pugixml-static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pugixml/CMakeFiles/pugixml-static.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/rt/raytracing/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/CMakeFiles 0
 .PHONY : pugixml/CMakeFiles/pugixml-static.dir/rule
 
 # Convenience name for target.

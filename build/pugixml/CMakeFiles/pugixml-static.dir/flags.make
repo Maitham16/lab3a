@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/maith/Desktop/rt/raytracing/pugixml/src
+CXX_INCLUDES = -I/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml/src
 
 CXX_FLAGS = -std=gnu++11 -fPIC
 

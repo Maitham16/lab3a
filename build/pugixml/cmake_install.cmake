@@ -1,4 +1,4 @@
-# Install script for directory: /home/maith/Desktop/rt/raytracing/pugixml
+# Install script for directory: /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,14 +43,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Development" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64" TYPE STATIC_LIBRARY FILES "/home/maith/Desktop/rt/raytracing/build/pugixml/libpugixml.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64" TYPE STATIC_LIBRARY FILES "/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml/libpugixml.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Development" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/pugixml/pugixml-targets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/pugixml/pugixml-targets.cmake"
-         "/home/maith/Desktop/rt/raytracing/build/pugixml/CMakeFiles/Export/779332450eb7b2cf03ede8b63dcd96e5/pugixml-targets.cmake")
+         "/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml/CMakeFiles/Export/779332450eb7b2cf03ede8b63dcd96e5/pugixml-targets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/pugixml/pugixml-targets-*.cmake")
       if(_cmake_old_config_files)
@@ -63,27 +63,27 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Development" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/pugixml" TYPE FILE FILES "/home/maith/Desktop/rt/raytracing/build/pugixml/CMakeFiles/Export/779332450eb7b2cf03ede8b63dcd96e5/pugixml-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/pugixml" TYPE FILE FILES "/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml/CMakeFiles/Export/779332450eb7b2cf03ede8b63dcd96e5/pugixml-targets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/pugixml" TYPE FILE FILES "/home/maith/Desktop/rt/raytracing/build/pugixml/CMakeFiles/Export/779332450eb7b2cf03ede8b63dcd96e5/pugixml-targets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/pugixml" TYPE FILE FILES "/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml/CMakeFiles/Export/779332450eb7b2cf03ede8b63dcd96e5/pugixml-targets-noconfig.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Development" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/pugixml" TYPE FILE FILES
-    "/home/maith/Desktop/rt/raytracing/build/pugixml/pugixml-config-version.cmake"
-    "/home/maith/Desktop/rt/raytracing/build/pugixml/pugixml-config.cmake"
+    "/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml/pugixml-config-version.cmake"
+    "/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml/pugixml-config.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Development" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/pkgconfig" TYPE FILE FILES "/home/maith/Desktop/rt/raytracing/build/pugixml/pugixml.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/pkgconfig" TYPE FILE FILES "/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/build/pugixml/pugixml.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Development" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/home/maith/Desktop/rt/raytracing/pugixml/src/pugiconfig.hpp"
-    "/home/maith/Desktop/rt/raytracing/pugixml/src/pugixml.hpp"
+    "/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml/src/pugiconfig.hpp"
+    "/home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml/src/pugixml.hpp"
     )
 endif()
 

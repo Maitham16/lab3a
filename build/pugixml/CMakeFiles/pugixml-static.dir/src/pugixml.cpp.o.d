@@ -1,8 +1,8 @@
 pugixml/CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o: \
- /home/maith/Desktop/rt/raytracing/pugixml/src/pugixml.cpp \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml/src/pugixml.cpp \
  /usr/include/stdc-predef.h \
- /home/maith/Desktop/rt/raytracing/pugixml/src/pugixml.hpp \
- /home/maith/Desktop/rt/raytracing/pugixml/src/pugiconfig.hpp \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml/src/pugixml.hpp \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml/src/pugiconfig.hpp \
  /usr/lib/gcc/x86_64-redhat-linux/13/include/stddef.h \
  /usr/include/c++/13/exception \
  /usr/include/c++/13/x86_64-redhat-linux/bits/c++config.h \

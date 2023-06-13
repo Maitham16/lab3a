@@ -1,8 +1,9 @@
-CMakeFiles/T5.dir/T5.cpp.o: /home/maith/Desktop/rt/raytracing/T5.cpp \
+CMakeFiles/T5.dir/T5.cpp.o: \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/T5.cpp \
  /usr/include/stdc-predef.h \
- /home/maith/Desktop/rt/raytracing/classes/Color.h \
- /home/maith/Desktop/rt/raytracing/classes/Light.h \
- /home/maith/Desktop/rt/raytracing/classes/Vec3.h \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/classes/Color.h \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/classes/Light.h \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/classes/Vec3.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/c++/13/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -132,29 +133,29 @@ CMakeFiles/T5.dir/T5.cpp.o: /home/maith/Desktop/rt/raytracing/T5.cpp \
  /usr/include/bits/mathcalls-helper-functions.h \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
  /usr/include/bits/iscanonical.h \
- /home/maith/Desktop/rt/raytracing/classes/Color.h \
- /home/maith/Desktop/rt/raytracing/classes/another_sphere.h \
- /home/maith/Desktop/rt/raytracing/classes/Ray.h \
- /home/maith/Desktop/rt/raytracing/classes/material_solid.h \
- /home/maith/Desktop/rt/raytracing/classes/Material.h \
- /home/maith/Desktop/rt/raytracing/classes/Camera.h \
- /home/maith/Desktop/rt/raytracing/classes/Ray.h \
- /home/maith/Desktop/rt/raytracing/classes/Vec3.h \
- /home/maith/Desktop/rt/raytracing/classes/RayTrace.h \
- /home/maith/Desktop/rt/raytracing/classes/another_sphere.h \
- /home/maith/Desktop/rt/raytracing/classes/Light.h \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/classes/Color.h \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/classes/another_sphere.h \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/classes/Ray.h \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/classes/material_solid.h \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/classes/Material.h \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/classes/Camera.h \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/classes/Ray.h \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/classes/Vec3.h \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/classes/RayTrace.h \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/classes/another_sphere.h \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/classes/Light.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/maith/Desktop/rt/raytracing/classes/SavePPM.h \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/classes/SavePPM.h \
  /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
  /usr/include/c++/13/x86_64-redhat-linux/bits/basic_file.h \
  /usr/include/c++/13/x86_64-redhat-linux/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /home/maith/Desktop/rt/raytracing/classes/material_solid.h \
- /home/maith/Desktop/rt/raytracing/pugixml/src/pugixml.hpp \
- /home/maith/Desktop/rt/raytracing/pugixml/src/pugiconfig.hpp \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/classes/material_solid.h \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml/src/pugixml.hpp \
+ /home/maith/Desktop/ALRUBAYEMaitham__lab3a/raytracing/pugixml/src/pugiconfig.hpp \
  /usr/include/c++/13/iterator /usr/include/c++/13/bits/stream_iterator.h \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
